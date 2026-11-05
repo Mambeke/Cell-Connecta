@@ -1,1 +1,27 @@
-{"name":"cell-connecta-live-shop","private":true,"version":"1.0.0","type":"module","scripts":{"preview":"node scripts/preview.mjs","deploy:preview":"wrangler pages deploy public --project-name=cell-connecta --branch=homepage-redesign","deploy":"wrangler pages deploy public --project-name=cell-connecta --branch=main"},"devDependencies":{"wrangler":"^3.114.17","@playwright/test":"^1.57.0"}}
+{
+  "name": "cell-connecta-live-shop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public --d1 DB=4aec972c-3587-4859-98b6-e43bec209e0f --binding OWNER_EMAILS=qa-owner@cellconnecta.invalid --ip 0.0.0.0 --port 3000",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-syntax.mjs",
+    "test": "node --test tests/unit.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "deploy:preview": "wrangler pages deploy public --project-name=cell-connecta --branch=premium-store",
+    "deploy": "wrangler pages deploy public --project-name=cell-connecta --branch=main",
+    "seed:local": "python3 scripts/seed-local.py --reset",
+    "format:check": "prettier --check server public/_worker.js public/cc-assets/store.js public/cc-assets/admin.js tests/*.mjs scripts/*.mjs",
+    "prepare:release": "node scripts/prepare-release.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "esbuild": "^0.25.12",
+    "prettier": "^3.6.2",
+    "wrangler": "^4.156.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

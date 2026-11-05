@@ -1,0 +1,25 @@
+{
+  "status": "LOCAL READY; NOT DEPLOYED",
+  "production_deployment_unchanged": "527a235b-90a3-4d8a-ba03-fbf93e6b5c6b",
+  "unit_tests": 29,
+  "syntax_modules": 15,
+  "local_readonly_browser_groups": 19,
+  "catalogue_groups": 8,
+  "hero_gallery_navigation_groups": 11,
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "uncaught_javascript_errors": 0,
+  "production_database_writes": 0,
+  "production_config_writes": 0,
+  "production_catalogue_unchanged": true,
+  "production_catalogue_count": 32,
+  "needs": "Fresh scoped temporary Cloudflare token for controlled deployment. Then live verification, not yet performed."
+}

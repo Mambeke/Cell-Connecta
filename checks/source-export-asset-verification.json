@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "method": "Read-only canonical public downloads; exact bytes retained, no formatting edits",
+  "assets": {
+    "cc-assets/store.css": {
+      "bytes": 96045,
+      "sha256": "7396200ee271b615f7560291de75cd9b71ae16a8c641a33f339ba3f0ae005548",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/store.css"
+    },
+    "cc-assets/store.js": {
+      "bytes": 22352,
+      "sha256": "acfe6c66790601444651f22d9c634924d7e652fcb46b5422d3e3f4ceb261325e",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/store.js"
+    },
+    "cc-assets/admin.js": {
+      "bytes": 42785,
+      "sha256": "935814580903f42186862b56fc4850aabe408b50146467672cc9d2850cbb0c96",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/admin.js"
+    },
+    "cc-assets/hero-iphone-collection.webp": {
+      "bytes": 161284,
+      "sha256": "00328903111c97f75f04654a19cd24739c8f2797d4c5e202370a8fe944436467",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/hero-iphone-collection.webp"
+    },
+    "cc-assets/hero-samsung-collection.webp": {
+      "bytes": 204996,
+      "sha256": "b4d925439b51ab7fc1fff60d1c16bdf34846f77b27fb1313bf91968c98789e94",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/hero-samsung-collection.webp"
+    },
+    "cc-assets/hero-laptop-collection.webp": {
+      "bytes": 207726,
+      "sha256": "c327726083e665d93bc852d8525df82bb640032b88c39f93be67cefc015a803a",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/hero-laptop-collection.webp"
+    },
+    "cc-assets/hero-accessories-collection.webp": {
+      "bytes": 262658,
+      "sha256": "3f9da21f477921b2429a37ae1a72a348606b1c604d01a88d00a4ac00ada8a04b",
+      "source_url": "https://cell-connecta.pages.dev/cc-assets/hero-accessories-collection.webp"
+    }
+  },
+  "production_writes": 0
+}

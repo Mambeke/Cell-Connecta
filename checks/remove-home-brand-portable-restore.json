@@ -1,0 +1,8 @@
+{
+  "environment": "isolated portable source extraction",
+  "deployment": "2e6cc1d9-b20d-4bb7-a2bc-e07af3a5992f",
+  "crc": "passed",
+  "source_css_js_artwork_match": "passed",
+  "unit_tests_passed": 36,
+  "credentials_included": false
+}

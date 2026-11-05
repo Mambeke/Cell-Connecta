@@ -1,0 +1,8 @@
+{
+  "status": "LIVE VERIFIED archive",
+  "archive_crc": "passed",
+  "required_source_and_artwork": "passed",
+  "production_deployment": "85bbb919-bdce-456a-8ba3-00a0085eeaaf",
+  "extracted_unit_tests_passed": 29,
+  "private_credentials_included": false
+}

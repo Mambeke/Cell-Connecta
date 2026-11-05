@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archive_crc_verified": true,
+  "required_handover_and_server_files_present": true,
+  "extracted_source_unit_tests_passed": 22,
+  "original_backend_recovery_needed": false,
+  "credentials_included": false,
+  "private_database_included": false
+}

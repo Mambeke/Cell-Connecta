@@ -1,0 +1,88 @@
+{
+  "deployed": true,
+  "deploymentId": "ce8ff92c-e87a-49a7-8216-45c352c00360",
+  "url": "https://cell-connecta.pages.dev",
+  "originalRowsPreserved": {
+    "phones": 32,
+    "variants": 47,
+    "users": 1,
+    "sessions": 35,
+    "email_codes": 0,
+    "photo_blobs": 131
+  },
+  "sampleImageHashesVerified": 3,
+  "httpChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 14332,
+      "location": null
+    },
+    {
+      "path": "/shop",
+      "status": 200,
+      "bytes": 21043,
+      "location": null
+    },
+    {
+      "path": "/api/phones",
+      "status": 200,
+      "bytes": 32613,
+      "location": null
+    },
+    {
+      "path": "/login",
+      "status": 200,
+      "bytes": 8158,
+      "location": null
+    },
+    {
+      "path": "/admin",
+      "status": 302,
+      "bytes": 0,
+      "location": "https://cell-connecta.pages.dev/login"
+    },
+    {
+      "path": "/api/admin/overview",
+      "status": 401,
+      "bytes": 40,
+      "location": null
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 198,
+      "location": null
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 3641,
+      "location": null
+    },
+    {
+      "path": "/cart",
+      "status": 200,
+      "bytes": 8302,
+      "location": null
+    },
+    {
+      "path": "/checkout",
+      "status": 200,
+      "bytes": 9884,
+      "location": null
+    },
+    {
+      "path": "/forgot",
+      "status": 200,
+      "bytes": 7754,
+      "location": null
+    }
+  ],
+  "legacyURLsProtected": 26,
+  "remoteStagingWorkflowGroupsPassed": 19,
+  "unitTestsPassed": 13,
+  "productionOwnerPasswordLoginVerified": false,
+  "onlinePaymentsEnabled": false,
+  "emailRecoveryConfigured": false
+}

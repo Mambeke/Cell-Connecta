@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "production_deployment": "2e6cc1d9-b20d-4bb7-a2bc-e07af3a5992f",
+  "production_reads_only": true,
+  "catalogue_count": 32,
+  "recovered_current_public_assets": [
+    "cc-assets/store.css",
+    "cc-assets/store.js",
+    "cc-assets/hero-laptop-collection.webp",
+    "cc-assets/hero-accessories-collection.webp"
+  ],
+  "source_recovery_reason": "Restored workspace had stale CSS/browser JS and two missing artwork files; canonical current public assets are exact replacements.",
+  "production_writes": 0,
+  "asset_sha256": {
+    "cc-assets/store.css": "7396200ee271b615f7560291de75cd9b71ae16a8c641a33f339ba3f0ae005548",
+    "cc-assets/store.js": "acfe6c66790601444651f22d9c634924d7e652fcb46b5422d3e3f4ceb261325e",
+    "cc-assets/hero-laptop-collection.webp": "c327726083e665d93bc852d8525df82bb640032b88c39f93be67cefc015a803a",
+    "cc-assets/hero-accessories-collection.webp": "3f9da21f477921b2429a37ae1a72a348606b1c604d01a88d00a4ac00ada8a04b"
+  },
+  "browser_source_normalized_with_prettier": true,
+  "current_source_sha256": {
+    "cc-assets/store.css": "7396200ee271b615f7560291de75cd9b71ae16a8c641a33f339ba3f0ae005548",
+    "cc-assets/store.js": "65a869b7dce06ab0ddc64852ef806b8d947d21b022459491be62fc0ff6b81ccf",
+    "cc-assets/hero-laptop-collection.webp": "c327726083e665d93bc852d8525df82bb640032b88c39f93be67cefc015a803a",
+    "cc-assets/hero-accessories-collection.webp": "3f9da21f477921b2429a37ae1a72a348606b1c604d01a88d00a4ac00ada8a04b"
+  },
+  "unit_tests_passed": 36,
+  "syntax_modules": 15,
+  "build": "passed",
+  "format": "passed"
+}

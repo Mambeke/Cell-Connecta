@@ -1,0 +1,12 @@
+# LOCAL QA ONLY. Never use this file for production deployment.
+name = "cell-connecta-local-qa"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-01"
+
+[vars]
+OWNER_EMAILS = "qa-owner@cellconnecta.invalid"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cell-connecta-staging-20261102"
+database_id = "4aec972c-3587-4859-98b6-e43bec209e0f"

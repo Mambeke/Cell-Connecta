@@ -1,0 +1,674 @@
+{
+  "export_date": "2026-11-05",
+  "production_deployment": "2e6cc1d9-b20d-4bb7-a2bc-e07af3a5992f",
+  "archive_root": "Cell-Connecta-Premium/",
+  "source_provenance": "Existing editable server/tests/docs in this workspace. Current canonical public CSS/browser modules/artwork recovered read-only and included byte-for-byte.",
+  "credential_scan": "passed",
+  "production_writes": 0,
+  "files": {
+    ".gitignore": {
+      "bytes": 129,
+      "sha256": "193e1c7c7e699815c63d4559e669ec30474f2262a45cf5b946f9060850a844b2"
+    },
+    "ACCESSORIES-HERO-UPDATE.md": {
+      "bytes": 2694,
+      "sha256": "9eb4eed9aad8e2b6bd00fa7b2efc0856256bd43a5dfceefec02f7b64097751b9"
+    },
+    "AGENTS.md": {
+      "bytes": 6399,
+      "sha256": "754b10bc4ba36165e232a27cc729bb654173a13649619c05982983d90b52536b"
+    },
+    "ARCHITECTURE-AUDIT.md": {
+      "bytes": 6932,
+      "sha256": "b456c9a7eac508f4c2de8762210cd2eaa62d884959979015558f0b8ff5e09d34"
+    },
+    "CATALOGUE-SIDEBAR-UPDATE.md": {
+      "bytes": 5578,
+      "sha256": "1e26b57c9c1bd1ade13e6ceaac66cc0666f175f7b78fba9b0c1b928f575b3d42"
+    },
+    "CATEGORY-UPDATE.md": {
+      "bytes": 1907,
+      "sha256": "0f7e3ad0bde23deaa034efa449c87b72c931c8f7f26edbb4e2288b2825ddff4d"
+    },
+    "COMPACT-CATALOGUE-UPDATE.md": {
+      "bytes": 2642,
+      "sha256": "e9a4ce46d5aac80e2a9da24f9a26d49006eec8039fe827c449e32a2a311d751d"
+    },
+    "DEPLOYMENT-REPORT.md": {
+      "bytes": 11830,
+      "sha256": "9d86147283efbee1d3580d2b3bf76cb1e62011de19ad0a95352c353bcc29f48f"
+    },
+    "DEPLOYMENT.md": {
+      "bytes": 5511,
+      "sha256": "2cc81d38efefd0dd0444a59181fc5db4efea57acad17f06a2ec8cdc3d39149ae"
+    },
+    "FANCY-CATEGORIES-UPDATE.md": {
+      "bytes": 2950,
+      "sha256": "a968ac93821ec3b9383cfbb01213588ade59222fb7be8ea0c30928f606bc2527"
+    },
+    "FINAL-REPORT.md": {
+      "bytes": 12687,
+      "sha256": "adc0714798e6f2674b65b788d77b89e009249a47fbdfa5603cf078a8fb2bda6e"
+    },
+    "HANDOVER.md": {
+      "bytes": 15410,
+      "sha256": "da27f49078a37ca43e4113065b80c6b4964cb2655b701870f5f4f90556c95751"
+    },
+    "HEADER-WHATSAPP-UPDATE.md": {
+      "bytes": 2421,
+      "sha256": "f69312dbfcb7632baac546aade7c666b900b5f409359118af14c2ffdfa250741"
+    },
+    "LAPTOP-HERO-UPDATE.md": {
+      "bytes": 2815,
+      "sha256": "13b7914cd3a48a09e08d3c236695a247e62ea36da778e2247d64c9f64d8b8d2a"
+    },
+    "NAVBAR-OTHERS-UPDATE.md": {
+      "bytes": 2319,
+      "sha256": "26c4c2a87092da587ae50cacb1d08effa42182c2176783edd1da2cbc8929f6d0"
+    },
+    "NEXT-AGENT-START-HERE.md": {
+      "bytes": 14802,
+      "sha256": "4b8e66f1f82d99ae453cb061e265c9797d3fb63fac23dd274875609db041778b"
+    },
+    "OPEN-HERO-UPDATE.md": {
+      "bytes": 1558,
+      "sha256": "f86ca6bdfcbe6091d3687facced54e260c63014ec1269c745700c6adeb9d9c60"
+    },
+    "OWNER-GUIDE.md": {
+      "bytes": 5782,
+      "sha256": "9137414f19e73298d571a61ef4469f7f7c121aa9c1afe7b53f7bebb2925681d0"
+    },
+    "PROJECT-STATE.json": {
+      "bytes": 4023,
+      "sha256": "0cebe7aee33a4d533be6c2fd69c2b9dfdab82c9698ffafc0f8420ac69db1ac2a"
+    },
+    "README.md": {
+      "bytes": 5852,
+      "sha256": "0fe70097dd224caa917e29f0b80bbd43d127dc8f3b84146db62a5eb9b4ef4527"
+    },
+    "REFERENCE-HERO-UPDATE.md": {
+      "bytes": 2204,
+      "sha256": "a3f9efeedc5cf50d45234e6764c00f86086bd30944f0148dcaf15c8c28e84f00"
+    },
+    "REMOVE-HOME-BRAND-UPDATE.md": {
+      "bytes": 1661,
+      "sha256": "b711be9283ec1064699273bf485a0353dc9768fdc21d95a1b92be8df73064089"
+    },
+    "SAMSUNG-HERO-UPDATE.md": {
+      "bytes": 2855,
+      "sha256": "46ce2dae753b43c4ed02ebdea3afc263136454ff9c79f3e280d152dfa2ccc998"
+    },
+    "SOURCE-EXPORT-README.md": {
+      "bytes": 3484,
+      "sha256": "708fd496795b35b4f1596c180a4a57a886c12ebb435e62d0c20afe7d9692067e"
+    },
+    "STICKY-NAV-UPDATE.md": {
+      "bytes": 2109,
+      "sha256": "2fef6db6e0eef473f956e774d21f34ee56fe30aeb1a3e612dd625a3947133870"
+    },
+    "TESTING.md": {
+      "bytes": 5503,
+      "sha256": "d478b22a2da9275e5bb40c1f14560071e319cb5888c9adc2a13c889630a5480d"
+    },
+    "checks/accessories-home-desktop.png": {
+      "bytes": 889209,
+      "sha256": "21a7c72dd087589e0d2ef1cb31cd94b93885394da06139be998b1854faf2de61"
+    },
+    "checks/accessories-home-mobile.png": {
+      "bytes": 292817,
+      "sha256": "3c44611dce51ef9692efaf315385f079c51cbd091fdb369df7261b0e45bcf44d"
+    },
+    "checks/agent-handover-portable-restore.json": {
+      "bytes": 226,
+      "sha256": "1e67548d6c684e548ad5df49ef24eaf4d044c628cb22e290e04b5c4a71f58b6d"
+    },
+    "checks/agent-handover-recovery.json": {
+      "bytes": 1573,
+      "sha256": "a44005eac340d2ca0eaa067f47afbdbe58646742656e6e3b6cc9a438bed46a84"
+    },
+    "checks/catalogue-1440.png": {
+      "bytes": 1515166,
+      "sha256": "3d9b1a27b003e736dcd09c0c1a39424ad9160b2b91e790002ec70bdecb3d1c94"
+    },
+    "checks/catalogue-390.png": {
+      "bytes": 659040,
+      "sha256": "80fca27c189dbd2754feda8675868f83841a83ed63ba4b1317cee9ff6d488b7c"
+    },
+    "checks/catalogue-grouped-desktop.png": {
+      "bytes": 1599402,
+      "sha256": "e227c9335f3c184bb4e8f93c47caf25f8465f0524597331d5636642c64090321"
+    },
+    "checks/catalogue-local-release.json": {
+      "bytes": 668,
+      "sha256": "5e315c2ebb462131ad3b272780eda864fef54b34a67e0307429554bdf6b89595"
+    },
+    "checks/catalogue-local-results.json": {
+      "bytes": 896,
+      "sha256": "d39bf9d66109c49fba31af5167262c92678adf944e222bda02b57f609082869e"
+    },
+    "checks/catalogue-portable-restore.json": {
+      "bytes": 255,
+      "sha256": "804504b3a6f9c82aef2136c2ca8a1cc5d9ea84b0e32c2cd79d928f68eb6343fa"
+    },
+    "checks/catalogue-release-verification.json": {
+      "bytes": 888,
+      "sha256": "6d7d923601988649f5c1d01cb326e830a20a5ebb6f4c2662984d603f2a028c76"
+    },
+    "checks/catalogue-results.json": {
+      "bytes": 1217,
+      "sha256": "45b4d4336f05f3a918b5be92a8a53e29a1b7ffa68022f2c84eee8eabf3a67381"
+    },
+    "checks/catalogue-source-manifest.json": {
+      "bytes": 16903,
+      "sha256": "1789f4e576ee6df32adf7ea293f99c5b05f5927243c528df50ae7a897e33b299"
+    },
+    "checks/categories-home-desktop.png": {
+      "bytes": 1519550,
+      "sha256": "201cd41fd6fde730dfcdbdf4d23ebdd7841643fc8166d8120ff4f153987c6ca2"
+    },
+    "checks/categories-home-mobile.png": {
+      "bytes": 674328,
+      "sha256": "464df2119a9c205e16c236ed87b74576a0fb230c9e05cedc91cb25c6c2aa5144"
+    },
+    "checks/category-slideshow-results.json": {
+      "bytes": 1202,
+      "sha256": "35abf38c944e301e0172e1dbc0f945b1ec1cd15bd35a9d434b13e4f0ecc33c9a"
+    },
+    "checks/compact-catalogue-desktop.png": {
+      "bytes": 1493810,
+      "sha256": "92a72d945fb2551cef1022c2b02f3495780f96666d0c326e92b518e4c74fd3aa"
+    },
+    "checks/compact-catalogue-mobile.png": {
+      "bytes": 651419,
+      "sha256": "8f8158e613ec5e1bced481ecf3ac1563f4a1aa34229a91558003184707e038b1"
+    },
+    "checks/compact-filters-mobile.png": {
+      "bytes": 92890,
+      "sha256": "3712f223c5fd9f1deded68b4e5bed228d4a3c57a01788627c2d51a86378f95dc"
+    },
+    "checks/compact-portable-restore.json": {
+      "bytes": 263,
+      "sha256": "7b38e359b32bdfc43ff5c88e506cb699b82e489c44e98e726e6c9e22bc467e22"
+    },
+    "checks/compact-release-verification.json": {
+      "bytes": 936,
+      "sha256": "ee869af9c55ac9af4d8030bf67cf92252d655bfed94526285f637043bbd8d02c"
+    },
+    "checks/desktop.png": {
+      "bytes": 902621,
+      "sha256": "ae08a26fe817ca6c0ec1da18e8603170134e988d96cc36c0d7aa9e0dfa7d20cf"
+    },
+    "checks/fancy-categories-desktop.png": {
+      "bytes": 413597,
+      "sha256": "a41a1d5c8e20a928034f8d0e0b67a027b0889b20fd1e17be93f706e6d83623ab"
+    },
+    "checks/fancy-categories-mobile.png": {
+      "bytes": 181246,
+      "sha256": "74c3e02a08816bad23585a2c90ae14a24ffe3591508c0448b5b71142cfbc169c"
+    },
+    "checks/header-whatsapp-portable-restore.json": {
+      "bytes": 237,
+      "sha256": "93b7721055f4b437ce560a95189fe7ee8cd35c0b217563d477b24214460f88a4"
+    },
+    "checks/header-whatsapp-release-verification.json": {
+      "bytes": 1078,
+      "sha256": "df2877175980ce29803ee98fdec3c1813d4b994415ad15cf3edce274f7412471"
+    },
+    "checks/hero-release-results.json": {
+      "bytes": 769,
+      "sha256": "5511de95807c77b28e57ec4ad166c48389a9af99c126a6f61b596a1ef5a794a1"
+    },
+    "checks/laptop-home-desktop.png": {
+      "bytes": 854995,
+      "sha256": "346671ad612bc9cfbe9cb0a324e43376f01300431a20e14068f9bc41ee274adf"
+    },
+    "checks/laptop-home-mobile.png": {
+      "bytes": 295522,
+      "sha256": "2b1b9dcba5b7bb2258dd90bbe84e3ebefbfdb696d0a7acf150056523a0a317e5"
+    },
+    "checks/live-test-results.json": {
+      "bytes": 855,
+      "sha256": "77d8f8e62a074addcac4b231320a7000836ef37144ae0c659083dce5e9b52216"
+    },
+    "checks/mobile.png": {
+      "bytes": 484088,
+      "sha256": "58e9777199d3534e5737d126f3f918ad3ef36a66198637b3704c7755f6d79223"
+    },
+    "checks/navbar-others-desktop.png": {
+      "bytes": 794562,
+      "sha256": "257f58c5da0915ab1c38b1980d0cd5d1f30c1a2706611c3d045868001c8f9ea3"
+    },
+    "checks/navbar-others-mobile.png": {
+      "bytes": 107558,
+      "sha256": "145dc88e9b48a5ff1e69695af4f41c5dcbe4f8a80797d16f6c5c4e16ba893b5c"
+    },
+    "checks/navbar-others-portable-restore.json": {
+      "bytes": 237,
+      "sha256": "c2350d27a2e4601e353eaaedb024e9e1e6c5a00ab90f98ee55b98e458d29ce05"
+    },
+    "checks/navbar-others-release-verification.json": {
+      "bytes": 1157,
+      "sha256": "d39d46961ecd66f79d293212e5d8dec820663bcb3ce269b6898701f626217941"
+    },
+    "checks/phone-sourcing-desktop.png": {
+      "bytes": 239835,
+      "sha256": "88b638f351ae3d62d7477cf5ae63a96afb09bd2efd736c80a33c996aeec50744"
+    },
+    "checks/phone-sourcing-mobile.png": {
+      "bytes": 123501,
+      "sha256": "69e9e66dcf0f144d9d5468c0a8f093ca06026123818a3c3a138a2a1e24df41bb"
+    },
+    "checks/portable-restore-results.json": {
+      "bytes": 267,
+      "sha256": "a596704b42d42b94d6cecf17874ea0f0d7fe26846ceaf59a2205e5b0ec3923f3"
+    },
+    "checks/premium-admin-desktop.png": {
+      "bytes": 145217,
+      "sha256": "58ac44fe4febb9766a430bd5beac1addbcb323be303f3b76d34944a18c147aaa"
+    },
+    "checks/premium-admin-mobile.png": {
+      "bytes": 60228,
+      "sha256": "ae40ccc5a7720fbf4d08170135645eabe306b24604fcbc2b66f53db7961b24c7"
+    },
+    "checks/premium-home-desktop.png": {
+      "bytes": 597644,
+      "sha256": "4d634454e1440d2e1f319e6a3e99f39d9a1c4c902a06a0d3853f4b93bd5902a2"
+    },
+    "checks/premium-home-mobile.png": {
+      "bytes": 358652,
+      "sha256": "b03ff1f77363e72a696a9011698493bb0a8c871d48e926d4fe66c64127fadf0f"
+    },
+    "checks/premium-product-desktop.png": {
+      "bytes": 738823,
+      "sha256": "c1e56be9fde806d66dbea551065934569f25ebcf1e6f04bab6d84511b3b4e800"
+    },
+    "checks/premium-product-mobile.png": {
+      "bytes": 386104,
+      "sha256": "d0500797b2d68fc2c48e6cc890c65c56b446bc79ba8d8ba502069030186d19a1"
+    },
+    "checks/premium-shop-desktop.png": {
+      "bytes": 897591,
+      "sha256": "5ebca7275d2d1b6b579b956a0bf1cff65c39d1d18d07862e52c9279e9556b35c"
+    },
+    "checks/premium-shop-mobile.png": {
+      "bytes": 523322,
+      "sha256": "3132fd1cc6ab85441a86a780f71cd22fc204de724bb0fdec51a011e53e4e5cd9"
+    },
+    "checks/premium-test-results.json": {
+      "bytes": 2381,
+      "sha256": "79cdc9cdb27d7c4285c4dea4f9ba9e15f2d867f2b5ed7e82780aeee143ec281f"
+    },
+    "checks/production-browser-results.json": {
+      "bytes": 433,
+      "sha256": "4c8b8908e690bf275d3fd8d9c34dcd4153230e211b7cf3c2bcdfa74e0cb0660b"
+    },
+    "checks/production-home-desktop.png": {
+      "bytes": 1542608,
+      "sha256": "d8dc7a6f9722f56dc101ba389c0b1aaf8f28beac2be332d4e30c9a9edba345bd"
+    },
+    "checks/production-home-mobile.png": {
+      "bytes": 683841,
+      "sha256": "f21cf6761a612a1e8731d4722b5fc365d9459c04e85786b90c9d71c318ccee09"
+    },
+    "checks/production-product-desktop.png": {
+      "bytes": 738823,
+      "sha256": "c1e56be9fde806d66dbea551065934569f25ebcf1e6f04bab6d84511b3b4e800"
+    },
+    "checks/production-product-mobile.png": {
+      "bytes": 386104,
+      "sha256": "d0500797b2d68fc2c48e6cc890c65c56b446bc79ba8d8ba502069030186d19a1"
+    },
+    "checks/production-shop-desktop.png": {
+      "bytes": 897591,
+      "sha256": "5ebca7275d2d1b6b579b956a0bf1cff65c39d1d18d07862e52c9279e9556b35c"
+    },
+    "checks/production-shop-mobile.png": {
+      "bytes": 523322,
+      "sha256": "3132fd1cc6ab85441a86a780f71cd22fc204de724bb0fdec51a011e53e4e5cd9"
+    },
+    "checks/production-smoke-results.json": {
+      "bytes": 1729,
+      "sha256": "c5f3dbdf71a9d909575ede2db61e31b0867c5a153cc00a0bc3af11171e7d8873"
+    },
+    "checks/release-verification.json": {
+      "bytes": 13468,
+      "sha256": "7ff5119ddb23d484dea4306724674ba3fceed41869187c179a8060ceb7a0cf46"
+    },
+    "checks/remove-home-brand-portable-restore.json": {
+      "bytes": 237,
+      "sha256": "69a11704c80c3895c372c7426e77ef155b06046620a301fef73e4eb99ecf1f3b"
+    },
+    "checks/remove-home-brand-release-verification.json": {
+      "bytes": 1001,
+      "sha256": "2cac39cb83522f002b7e0e923411bc2979e170c9786eb2e5b587b8c98da9d5f6"
+    },
+    "checks/samsung-home-desktop.png": {
+      "bytes": 885086,
+      "sha256": "f9cca6b4e3937c2667e40975fb1488dbb8a0d05a4f0d323532e20b5d1666f133"
+    },
+    "checks/samsung-home-mobile.png": {
+      "bytes": 292558,
+      "sha256": "c00e49a54e7d69736087791a6f92deba9eaf018b775d7115be9a5c6dab1777c0"
+    },
+    "checks/source-export-asset-verification.json": {
+      "bytes": 1834,
+      "sha256": "97aabec8370af6c7e3f100bbf2111d66fcef352545023b15c57451ece7166fcd"
+    },
+    "checks/source-export-portable-verification.json": {
+      "bytes": 303,
+      "sha256": "cb3c9cada917cdf172e2048ba7dd9f663067cbee267f37234df30154e4e0000a"
+    },
+    "checks/staging-admin-desktop.png": {
+      "bytes": 145217,
+      "sha256": "58ac44fe4febb9766a430bd5beac1addbcb323be303f3b76d34944a18c147aaa"
+    },
+    "checks/staging-admin-mobile.png": {
+      "bytes": 60228,
+      "sha256": "ae40ccc5a7720fbf4d08170135645eabe306b24604fcbc2b66f53db7961b24c7"
+    },
+    "checks/staging-home-desktop.png": {
+      "bytes": 597644,
+      "sha256": "4d634454e1440d2e1f319e6a3e99f39d9a1c4c902a06a0d3853f4b93bd5902a2"
+    },
+    "checks/staging-home-mobile.png": {
+      "bytes": 358652,
+      "sha256": "b03ff1f77363e72a696a9011698493bb0a8c871d48e926d4fe66c64127fadf0f"
+    },
+    "checks/staging-product-desktop.png": {
+      "bytes": 738823,
+      "sha256": "c1e56be9fde806d66dbea551065934569f25ebcf1e6f04bab6d84511b3b4e800"
+    },
+    "checks/staging-product-mobile.png": {
+      "bytes": 386104,
+      "sha256": "d0500797b2d68fc2c48e6cc890c65c56b446bc79ba8d8ba502069030186d19a1"
+    },
+    "checks/staging-shop-desktop.png": {
+      "bytes": 897591,
+      "sha256": "5ebca7275d2d1b6b579b956a0bf1cff65c39d1d18d07862e52c9279e9556b35c"
+    },
+    "checks/staging-shop-mobile.png": {
+      "bytes": 523322,
+      "sha256": "3132fd1cc6ab85441a86a780f71cd22fc204de724bb0fdec51a011e53e4e5cd9"
+    },
+    "checks/staging-test-results.json": {
+      "bytes": 2391,
+      "sha256": "98e750959d393c7a1767886ee4b7a507e24be9d4992912a4448bae63f6537d66"
+    },
+    "checks/sticky-nav-desktop.png": {
+      "bytes": 361981,
+      "sha256": "b401ea2583fddccea4abd52c5a5224f3c4f8a0a42708f7d338cf43e73c14b3da"
+    },
+    "checks/sticky-nav-mobile.png": {
+      "bytes": 241834,
+      "sha256": "a00a3382f990eef19891130b9fa9483b1b58799f4573b0c1f607acc35059cc0e"
+    },
+    "migrations/0001_premium_store.sql": {
+      "bytes": 5081,
+      "sha256": "f55a1ecf4f0ab2ed7ac80e376d755952a54a40b1d6fea36f0773a9cf7546185b"
+    },
+    "package-lock.json": {
+      "bytes": 66499,
+      "sha256": "d3728c7d3171846f6c7405949365201271a28f26b24564f555076884b3ba5de5"
+    },
+    "package.json": {
+      "bytes": 1091,
+      "sha256": "2ced998210112fb90e694b1ec6f158f3547cca00e2b7d9bf3bc0be94f8ddedbb"
+    },
+    "public/_routes.json": {
+      "bytes": 44,
+      "sha256": "6a5235a7db8c26c17606b7f16516509989e8b2c8307280cc53c30e03e63d4a6a"
+    },
+    "public/_worker.js": {
+      "bytes": 8789,
+      "sha256": "fce4807e7a843c08735c805c57b9cadc2cef034086324a46984864ed8ec60d41"
+    },
+    "public/apple-touch-icon.png": {
+      "bytes": 2465,
+      "sha256": "37dbe5e5e0b63fefa1d83f59bc3ed8e114461e1ecad46ec0770633fdbef2872c"
+    },
+    "public/assets/index-CR2EuL1H.css": {
+      "bytes": 142899,
+      "sha256": "ac4c4f8e778d9c7066b9d627104bfd1b52b6cc59daeecc101ea93d88d4c3a2bc"
+    },
+    "public/assets/index-D--s9tIc.js": {
+      "bytes": 412823,
+      "sha256": "2ae4e755b1ce2294435eb98045023e1b9ce53f8580df39e13a7d6a314dd73592"
+    },
+    "public/cc-assets/admin.js": {
+      "bytes": 42785,
+      "sha256": "935814580903f42186862b56fc4850aabe408b50146467672cc9d2850cbb0c96"
+    },
+    "public/cc-assets/category-accessories.webp": {
+      "bytes": 1162,
+      "sha256": "3407bf98f0124e137188cb62436c667df1c9821549532f94d7a358dee963a796"
+    },
+    "public/cc-assets/category-deals.webp": {
+      "bytes": 1780,
+      "sha256": "950659d684ca07c2bac9c5792c318bb3361f0e2e94bd3ad865414f7bc1e8ca20"
+    },
+    "public/cc-assets/category-iphone.webp": {
+      "bytes": 1744,
+      "sha256": "95739c2a2d7514454081389928133cbb2bc73baff5dceaeeea3af4f56e2c5e56"
+    },
+    "public/cc-assets/category-laptop.webp": {
+      "bytes": 1900,
+      "sha256": "022456b9e92a48186ca1942bb6e282a51265bb048114ae9881f62e37bcb8943b"
+    },
+    "public/cc-assets/category-samsung.webp": {
+      "bytes": 1850,
+      "sha256": "5299adf912d059f67f2bac59b96227b2c44b0b163753739404ebd9c5e8d6a867"
+    },
+    "public/cc-assets/cell-connecta-logo.webp": {
+      "bytes": 8880,
+      "sha256": "502b07a078919e2255452b020e10b4b9d5404c7d9d7b1a1f180cd9679a676527"
+    },
+    "public/cc-assets/hero-accessories-collection.webp": {
+      "bytes": 262658,
+      "sha256": "3f9da21f477921b2429a37ae1a72a348606b1c604d01a88d00a4ac00ada8a04b"
+    },
+    "public/cc-assets/hero-accessories-open.webp": {
+      "bytes": 51184,
+      "sha256": "8b5a974c068f821bc35a4c4955697bf08e355df2ea23042eaa0c68ed12c9c4ee"
+    },
+    "public/cc-assets/hero-accessories.webp": {
+      "bytes": 33768,
+      "sha256": "4c4e8c8398b260e6ecd7283fda46f9bf80054494919956e8c06d27ee15658763"
+    },
+    "public/cc-assets/hero-iphone-collection.webp": {
+      "bytes": 161284,
+      "sha256": "00328903111c97f75f04654a19cd24739c8f2797d4c5e202370a8fe944436467"
+    },
+    "public/cc-assets/hero-iphone-open.webp": {
+      "bytes": 21812,
+      "sha256": "1894cee82d3e717d41dd49a550b8aefec2fd4411563c52d99508fa379fe30079"
+    },
+    "public/cc-assets/hero-iphone.webp": {
+      "bytes": 13980,
+      "sha256": "5bf2a58d425f88c01f3425e281024588e0567d02e1935b4494cdad34c749a4fb"
+    },
+    "public/cc-assets/hero-laptop-collection.webp": {
+      "bytes": 207726,
+      "sha256": "c327726083e665d93bc852d8525df82bb640032b88c39f93be67cefc015a803a"
+    },
+    "public/cc-assets/hero-laptop-open.webp": {
+      "bytes": 48680,
+      "sha256": "44e3bd23bf5f7434b10f0486c9b413ec04146f117d3e5cd53318f6d6faa084a3"
+    },
+    "public/cc-assets/hero-laptop.webp": {
+      "bytes": 31398,
+      "sha256": "1ea2dc0393458771b07452cc65cd7a6da85767c7532c911f2d880033bfea6733"
+    },
+    "public/cc-assets/hero-samsung-collection.webp": {
+      "bytes": 204996,
+      "sha256": "b4d925439b51ab7fc1fff60d1c16bdf34846f77b27fb1313bf91968c98789e94"
+    },
+    "public/cc-assets/hero-samsung-open.webp": {
+      "bytes": 20154,
+      "sha256": "92bec3fba1fdfde3f3b4c0811e7eaa96c626ce5c298e80b5742da2efc4bc6c92"
+    },
+    "public/cc-assets/hero-samsung.webp": {
+      "bytes": 11710,
+      "sha256": "907853e8e5b13add86571c6d7e660b192ffb8cd7a3e74efa42070b34a31de1a6"
+    },
+    "public/cc-assets/home.css": {
+      "bytes": 25049,
+      "sha256": "339efd49200a0f7fe4a6b5bdedeacd01539439f437316f3e97ee35139355065a"
+    },
+    "public/cc-assets/home.js": {
+      "bytes": 9137,
+      "sha256": "345eb6fe790079326b1fe6c13c9be7f7ac96948ceaea2513542963d034599ffa"
+    },
+    "public/cc-assets/reference-hero.webp": {
+      "bytes": 32762,
+      "sha256": "1f966534ebf229f5af7755ca667caf5fbde1bdc738de313833e1c3a252c470ef"
+    },
+    "public/cc-assets/store.css": {
+      "bytes": 96045,
+      "sha256": "7396200ee271b615f7560291de75cd9b71ae16a8c641a33f339ba3f0ae005548"
+    },
+    "public/cc-assets/store.js": {
+      "bytes": 22352,
+      "sha256": "acfe6c66790601444651f22d9c634924d7e652fcb46b5422d3e3f4ceb261325e"
+    },
+    "public/cc-bridge.js": {
+      "bytes": 877,
+      "sha256": "f678b7c0f708d0f73a4342b763befcfd0cd0f79d6575eee59a42ba7cb9d7fc80"
+    },
+    "public/favicon.png": {
+      "bytes": 2465,
+      "sha256": "37dbe5e5e0b63fefa1d83f59bc3ed8e114461e1ecad46ec0770633fdbef2872c"
+    },
+    "public/fonts/fonts.css": {
+      "bytes": 792,
+      "sha256": "634b0527f1fb816f78a857f766e19999c029faa0b5742106b7ba8d776b032bef"
+    },
+    "public/fonts/plus-jakarta-sans.woff2": {
+      "bytes": 27348,
+      "sha256": "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
+    },
+    "public/fonts/sora.woff2": {
+      "bytes": 25284,
+      "sha256": "811e11966d29f3a01fcb19b087b61ac067d380665a55aebb7fcdf2cda95e4a93"
+    },
+    "public/index.html": {
+      "bytes": 12549,
+      "sha256": "e30e1e4bbeb02f22bf35cce732b0ea9ee8f72a8a4aa7850437bffc7fd4e9cb59"
+    },
+    "public/legacy.html": {
+      "bytes": 1620,
+      "sha256": "d09c92959f937da1b9f709558994d77fcbce85d9f18673b71082288024bc57bd"
+    },
+    "public/og-cover.png": {
+      "bytes": 327474,
+      "sha256": "11da2b1ff097bc1816a9cb83456d48bffddd93e565aa5173f84c493412fe127b"
+    },
+    "public/robots.txt": {
+      "bytes": 109,
+      "sha256": "a4496371aa7183773eeb54693b3380a167f1b39a15bb8336e874947bd5e29a7c"
+    },
+    "scripts/build.mjs": {
+      "bytes": 659,
+      "sha256": "20c4c8f579bd4a882909bd4f2d76ab6a3b36e480bc102f74557dbbc33a17679c"
+    },
+    "scripts/check-shop.mjs": {
+      "bytes": 5181,
+      "sha256": "141e27d0fcd77f2fdb0c1213ce4d332880c19a4e4c1fd8ad9faa5279b829510b"
+    },
+    "scripts/check-syntax.mjs": {
+      "bytes": 645,
+      "sha256": "82091e508062d77606050c61f295b755f460bd56e900b034d578cfa15d1a9983"
+    },
+    "scripts/export-source.py": {
+      "bytes": 4778,
+      "sha256": "ed3111494ed20487ca414b10a2a0c6d0198a236fe864eda7bee9a9cf0dd1ebab"
+    },
+    "scripts/package-catalogue-delivery.py": {
+      "bytes": 9088,
+      "sha256": "e81e7c3301457c5f8d76888b218abd8d2341942057cf07efc359b4aacaaa569e"
+    },
+    "scripts/prepare-collection-art.py": {
+      "bytes": 2238,
+      "sha256": "c45f9403760bd3a8dd929e9faae834bddffe0b7b9f9881354a7a4ebe816cfce3"
+    },
+    "scripts/prepare-release.mjs": {
+      "bytes": 3187,
+      "sha256": "73f1552429346f0822c4a3483ea54806add41bf52e1feb553783e408afaa32cc"
+    },
+    "scripts/preview.mjs": {
+      "bytes": 1721,
+      "sha256": "d0871bcf6ee655cce1af466626e049f04f1494a29f41de7472778ad742778e4c"
+    },
+    "scripts/production-browser-check.mjs": {
+      "bytes": 3558,
+      "sha256": "04574fce544b3f01356c864201671c2317dd8cf03565fda09929e55ad6bc9555"
+    },
+    "scripts/seed-local.py": {
+      "bytes": 2676,
+      "sha256": "4f9dbd113b4f05acad6f8a82c471349c0a89fed2a610fe2cbcaacab543acd44e"
+    },
+    "server/api.js": {
+      "bytes": 14340,
+      "sha256": "fa23b5deb4f87fd9a4d4390702c248bbcee45aa3bff714e05fa2f6cee353b6de"
+    },
+    "server/core.js": {
+      "bytes": 7279,
+      "sha256": "e03d7b817eeb05d70d78cfa1955ee9a7c46a42d113c2dec0751d2f4ab6ff0898"
+    },
+    "server/data.js": {
+      "bytes": 14077,
+      "sha256": "89a9ef2e6cadfd7d52cb03564db717a57561c8d7aa000c0dc733cb2f707415f6"
+    },
+    "server/orders.js": {
+      "bytes": 9613,
+      "sha256": "3b777922381e52ff563ec2f5b5b824ebd696c4ef000c54c4ee16ef7c03a5e8ce"
+    },
+    "server/recovery.js": {
+      "bytes": 4666,
+      "sha256": "cb14ab934abbe684881a4ac0c8aba2147545494695202badc8a3afc9916e4039"
+    },
+    "server/render.js": {
+      "bytes": 49049,
+      "sha256": "e2284f1303bb1bc5057e64661e1e501e25ac7a5fad397ada6bbb6ddebe625d37"
+    },
+    "tests/catalogue.mjs": {
+      "bytes": 21074,
+      "sha256": "d6b1bb790f775b02961ae8a222b9502cbf9ea7f938625b060336360e33da374e"
+    },
+    "tests/categories.mjs": {
+      "bytes": 20750,
+      "sha256": "c81765061c68210286f81e4a85e1d41a4d729a24a552b450e82130f72552b0b7"
+    },
+    "tests/e2e.mjs": {
+      "bytes": 28180,
+      "sha256": "d180a99173a19108a39cafe8e8b583e14855b33e710e9386e34f204d2c4c4061"
+    },
+    "tests/fixtures/catalogue.json": {
+      "bytes": 29366,
+      "sha256": "1f5fd362f978089315a14831cf8278c9d2f6ddfe63aedbaee71ea52f18ec7623"
+    },
+    "tests/fixtures/legacy-schema.sql": {
+      "bytes": 2182,
+      "sha256": "33a8aae462039dba81475dbee604f6fdaa3f1b456b26a113279bd7cfd493f302"
+    },
+    "tests/fixtures/upload.jpg": {
+      "bytes": 147585,
+      "sha256": "dde73c52e5d7131f08e02db4b3b9d2ff4b9be805f4296a7946e7fb7d1ed39d24"
+    },
+    "tests/staging.mjs": {
+      "bytes": 29025,
+      "sha256": "2fcffedcd9b4e761055cf0433a9a8b46972a539ae4fc1452b303bdf9eb3f3d06"
+    },
+    "tests/unit.test.mjs": {
+      "bytes": 23275,
+      "sha256": "19cc8d78d47cb4ec7fa67e9abf7f0bc65e9aca54762369a9ed8c25e8757af934"
+    },
+    "wrangler.local.toml": {
+      "bytes": 356,
+      "sha256": "e2ef432efbc50a693e7305ce733d431ffbe9f1e389be3d25f9338d6b065fb5e1"
+    },
+    "wrangler.toml": {
+      "bytes": 210,
+      "sha256": "c2cef06d413602601d940d5047450cd9c90b6f3f911c64375e075ae075a3879a"
+    }
+  }
+}

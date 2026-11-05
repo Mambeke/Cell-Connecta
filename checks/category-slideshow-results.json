@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "base": "https://cell-connecta.pages.dev",
+  "readOnly": true,
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "checks": [
+    "All four slides/cards use loaded category images and correct category links",
+    "Automatic rotation, pause, next/previous and category dots work",
+    "Samsung supplied artwork, dark theme, real CTAs and return to pale iPhone theme work",
+    "Laptop supplied artwork, neon theme, shopping and laptop-only deals links work",
+    "Accessories supplied artwork, dark theme, shop and View All links work",
+    "Every slide fits all eight requested viewport widths; mobile categories remain visible",
+    "Premium collection gallery fits eight widths, loads the supplied artwork and supports keyboard focus",
+    "iPhone, Samsung, laptop and accessories cards open truthful persistent category pages",
+    "Navigation stays visible while scrolling at eight widths; anchors, WhatsApp and mobile menu work",
+    "Mobile menu exposes laptops/accessories and touch swipes change hero slides",
+    "Reduced-motion visitors are not automatically rotated and can navigate manually"
+  ],
+  "javascriptErrors": []
+}

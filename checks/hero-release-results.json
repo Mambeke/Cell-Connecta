@@ -1,0 +1,35 @@
+{
+  "deployment": "527a235b-90a3-4d8a-ba03-fbf93e6b5c6b",
+  "url": "https://cell-connecta.pages.dev",
+  "previous_deployment": "107f2a01-75e0-4344-973f-6ee8413daf9d",
+  "catalogue_unchanged": true,
+  "catalogue_count": 32,
+  "configuration_unchanged": true,
+  "prepared_public_assets_verified": true,
+  "security_checks": {
+    "deployment_hash": {
+      "status": 302,
+      "access_redirect": true
+    },
+    "unauthenticated_admin": {
+      "status": 401,
+      "access_redirect": false
+    }
+  },
+  "database_migrations": 0,
+  "database_mutations": 0,
+  "unit_tests": 22,
+  "syntax_modules": 15,
+  "live_browser_workflow_groups": 11,
+  "rendered_widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "javascript_errors": []
+}

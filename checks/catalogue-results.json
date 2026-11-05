@@ -1,0 +1,28 @@
+{
+  "base": "https://cell-connecta.pages.dev",
+  "checks": [
+    "Default catalogue retains accessible heading, desktop sidebar and real inventory",
+    "Desktop category checkboxes update heading and create blue-separated sections",
+    "Brand → exact iPhone model → real storage updates and survives product navigation",
+    "API composed filters preserve same-variant storage, price and availability",
+    "Mobile batches category/model/storage selections until Apply and resets child facets",
+    "Eight widths have no horizontal overflow, correct filter mode and no sticky-header overlap",
+    "Sidebar remains operable after resizing and without JavaScript",
+    "Search, sorting, price controls, availability/deals and pagination remain functional",
+    "Compact premium layout removes intro and brings shopping controls directly below navigation",
+    "Customer header, footer admin gateway and below-pagination phone sourcing work at eight widths",
+    "Only navbar has a persistent WhatsApp icon, footer notice is gone and Others filters truthfully"
+  ],
+  "errors": [],
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "time": "2026-11-03T22:34:11.980Z"
+}

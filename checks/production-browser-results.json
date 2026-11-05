@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "environment": "Live production, non-order-creating browser checks only",
+  "url": "https://cell-connecta.pages.dev",
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "screenshots": 6,
+  "productVariantAndBagQuote": true,
+  "uncaughtJavascriptErrors": [],
+  "cspViolations": [],
+  "ownerPasswordLoginVerified": false,
+  "ordersCreated": 0,
+  "inventoryWrites": 0
+}

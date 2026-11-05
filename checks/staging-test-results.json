@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "environment": "Verified remote Cloudflare Pages preview + isolated staging D1; NOT production",
+  "checks": [
+    "Homepage renders real featured products and working Shop All Phones CTA",
+    "Catalogue search, composed brand/price/storage/condition filters, pagination and sorting",
+    "Product gallery, real conditions, variant prices, stock and accurate structured data",
+    "Unavailable quantities rejected; available products enter a persistent real-stock-validated bag",
+    "Checkout records an unpaid, unreserved order request and returns a private receipt",
+    "Unauthenticated admin page/API, forged session, and cross-origin mutation attempts are blocked",
+    "Owner authenticates using PBKDF2; server checks owner permissions and CSRF",
+    "Desktop/mobile screenshots and rendered overflow checks at all eight requested widths",
+    "Mobile navigation, search and compact filter panel are accessible and functional",
+    "Owner creates a draft product with an uploaded image; drafts stay private",
+    "Owner publishes and edits price/details; database values persist after refresh and homepage curation updates",
+    "Stock add/remove/set operations persist; negative results and stale updates are rejected",
+    "Mobile product editor and stock-adjustment forms fit the viewport and save through the real API",
+    "A failed database write rolls back completely and returns an error, never a false success",
+    "Order requests are idempotent; concurrent confirmations cannot oversell; cancellation restocks once",
+    "Product archive requires confirmation and removes the listing from public API/search/product pages",
+    "Owner can disable/update promotion; restricted uploads and unconfigured online payments fail clearly",
+    "Login rate limiting and session logout are enforced",
+    "No JavaScript exceptions or Content Security Policy violations during end-to-end workflows"
+  ],
+  "widths": [
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1366,
+    1440,
+    1920
+  ],
+  "limitations": [
+    "Staging tests passed against the isolated QA owner. Real production owner-password login remains unverified.",
+    "No online payment provider, transactional order email or carrier-rate service is enabled.",
+    "Password recovery needs RESEND_FROM_EMAIL and a working sender/API key; real email delivery is not configured or tested."
+  ]
+}
