@@ -17,3 +17,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .arena/
+
+# Generated Samsung marketing shots — local preview sheets only
+product-photos/samsung/**/PREVIEW-*.jpg
