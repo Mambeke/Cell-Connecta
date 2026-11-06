@@ -117,6 +117,12 @@ if (document.body.dataset.page === "product") {
     );
     $("#add-to-cart").disabled = v.inStock < 1;
     $("#buy-now").disabled = v.inStock < 1;
+    const dp = $("#detail-discount");
+    if (dp) {
+      const newDisc = v.wasPrice > v.price ? Math.round((1 - v.price / v.wasPrice) * 100) : 0;
+      dp.textContent = newDisc > 0 ? "Save " + newDisc + "%" : "";
+      dp.hidden = !(newDisc > 0);
+    }
   };
   const p = data.product, variant = () => p.variants.find((v) => v.id === $("#variant-select").value);
   $("#variant-select").addEventListener("change", () => {
@@ -154,19 +160,61 @@ if (document.body.dataset.page === "product") {
   }
   $("#add-to-cart").addEventListener("click", () => add(false));
   $("#buy-now").addEventListener("click", () => add(true));
-  $$("[data-gallery]").forEach(
+  // Gallery: index tracking, thumbnails, prev/next arrows, counter
+  let galleryIndex = 0;
+  const galleryImgs = $$("[data-gallery]");
+  function showGalleryImage(i) {
+    const len = galleryImgs.length;
+    if (!len) return;
+    galleryIndex = (i + len) % len;
+    const btn = galleryImgs[galleryIndex];
+    $("#main-product-image").src = btn.dataset.gallery;
+    $("#zoomed-image").src = btn.dataset.gallery;
+    $$("[data-gallery]").forEach(
+      (x) => x.setAttribute("aria-pressed", String(x === btn))
+    );
+    $("#gallery-counter").textContent = (galleryIndex + 1) + "/" + len;
+  }
+  galleryImgs.forEach(
     (b) => b.addEventListener("click", () => {
-      $("#main-product-image").src = b.dataset.gallery;
-      $("#zoomed-image").src = b.dataset.gallery;
-      $$("[data-gallery]").forEach(
-        (x) => x.setAttribute("aria-pressed", String(x === b))
-      );
+      showGalleryImage(parseInt(b.dataset.index || "0", 10));
+    })
+  );
+  $$("[data-gallery-prev]").forEach(
+    (b) => b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      showGalleryImage(galleryIndex - 1);
+    })
+  );
+  $$("[data-gallery-next]").forEach(
+    (b) => b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      showGalleryImage(galleryIndex + 1);
     })
   );
   $("#zoom-image").addEventListener(
     "click",
     () => $("#image-dialog").showModal()
   );
+  // Share product
+  $("#share-product").addEventListener("click", async () => {
+    const url = $("#share-product").dataset.url || location.href;
+    const title = p.model;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, url });
+      } catch (e) { /* user cancelled */ }
+    } else if (navigator.clipboard) {
+      try {
+        await navigator.clipboard.writeText(url);
+        toast("Product link copied to clipboard.");
+      } catch (e) {
+        toast("Could not copy link. Copy it manually.");
+      }
+    } else {
+      toast("Copy this link: " + url);
+    }
+  });
 }
 if (["cart", "checkout"].includes(document.body.dataset.page)) {
   let all = [], quote = null;

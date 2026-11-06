@@ -22,7 +22,7 @@ const data = (x) =>
     .replace(/\u2029/g, "\\u2029");
 export const svg = (id) =>
   `<svg class="icon" aria-hidden="true"><use href="#${id}"/></svg>`;
-const sprite = `<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="filter" viewBox="0 0 24 24"><path d="M3 6h5m4 0h9M3 12h11m4 0h3M3 18h2m4 0h12"/><circle cx="10" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="7" cy="18" r="2"/></symbol><symbol id="device-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4m-3 14h2"/></symbol><symbol id="device-laptop" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="13" rx="2"/><path d="m4 16-2 5h20l-2-5M9 18h6"/></symbol><symbol id="device-others" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol><symbol id="device-accessories" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 0 1 16 0v3"/><rect x="2" y="11" width="5" height="10" rx="2"/><rect x="17" y="11" width="5" height="10" rx="2"/></symbol><symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="truck" viewBox="0 0 24 24"><path d="M2 5h12v12H2zM14 9h4l4 5v3h-8"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></symbol><symbol id="shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-5 8-9 10-4-2-9-5-9-10V6Z"/><path d="m7.5 11.5 3 3 6-6"/></symbol><symbol id="award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8 13-3 9 7-3 7 3-3-9"/></symbol><symbol id="refresh" viewBox="0 0 24 24"><path d="M21 3v6h-6M3 21v-6h6M20 9a8 8 0 0 0-14-5M4 15a8 8 0 0 0 14 5"/></symbol><symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></symbol><symbol id="user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M3 23v-3a9 9 0 0 1 18 0v3"/></symbol><symbol id="bag" viewBox="0 0 24 24"><path d="M4 7h16l-1 15H5Z"/><path d="M8 8V5a4 4 0 0 1 8 0v3"/></symbol><symbol id="heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol><symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol><symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol><symbol id="whatsapp" viewBox="0 0 32 32"><path d="M16 3A13 13 0 0 0 4.7 22.5L3 29l6.7-1.7A13 13 0 1 0 16 3Z"/><path d="M11 9c-2-1-3 2-2 5 2 5 6 8 10 8 3 0 4-3 2-4l-3-1-2 2c-3-1-5-3-6-6l2-1Z"/></symbol></svg>`;
+const sprite = `<svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="filter" viewBox="0 0 24 24"><path d="M3 6h5m4 0h9M3 12h11m4 0h3M3 18h2m4 0h12"/><circle cx="10" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="7" cy="18" r="2"/></symbol><symbol id="device-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4m-3 14h2"/></symbol><symbol id="device-laptop" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="13" rx="2"/><path d="m4 16-2 5h20l-2-5M9 18h6"/></symbol><symbol id="device-others" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol><symbol id="device-accessories" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 0 1 16 0v3"/><rect x="2" y="11" width="5" height="10" rx="2"/><rect x="17" y="11" width="5" height="10" rx="2"/></symbol><symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="truck" viewBox="0 0 24 24"><path d="M2 5h12v12H2zM14 9h4l4 5v3h-8"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></symbol><symbol id="shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-5 8-9 10-4-2-9-5-9-10V6Z"/><path d="m7.5 11.5 3 3 6-6"/></symbol><symbol id="award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8 13-3 9 7-3 7 3-3-9"/></symbol><symbol id="refresh" viewBox="0 0 24 24"><path d="M21 3v6h-6M3 21v-6h6M20 9a8 8 0 0 0-14-5M4 15a8 8 0 0 0 14 5"/></symbol><symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></symbol><symbol id="user" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M3 23v-3a9 9 0 0 1 18 0v3"/></symbol><symbol id="bag" viewBox="0 0 24 24"><path d="M4 7h16l-1 15H5Z"/><path d="M8 8V5a4 4 0 0 1 8 0v3"/></symbol><symbol id="heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol><symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol><symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol><symbol id="whatsapp" viewBox="0 0 32 32"><path d="M16 3A13 13 0 0 0 4.7 22.5L3 29l6.7-1.7A13 13 0 1 0 16 3Z"/><path d="M11 9c-2-1-3 2-2 5 2 5 6 8 10 8 3 0 4-3 2-4l-3-1-2 2c-3-1-5-3-6-6l2-1Z"/></symbol><symbol id="phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol><symbol id="share" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="m8 11 8-4M8 13l8 4"/></symbol><symbol id="trade-in" viewBox="0 0 24 24"><path d="M7 8h13l-3-3M17 16H4l3 3"/></symbol><symbol id="zap" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol></svg>`;
 export function layout({
   title,
   description = "Quality phones, transparent pricing and dependable service from Cell Connecta.",
@@ -284,25 +284,126 @@ export function productPage(p, related, b, selectedVariantId = null) {
       sku: v.id,
     })),
   };
-  const content = `<section class="container product-section"><p class="breadcrumbs"><a href="/">Home</a> / <a href="/shop">Shop</a> / ${esc(p.model)}</p><div class="product-layout"><div class="gallery"><button class="gallery-main" id="zoom-image" aria-label="Enlarge product image"><img id="main-product-image" src="${esc(p.photoUrls[0] || "/favicon.png")}" alt="${esc(p.model + " " + p.colour)}" width="700" height="700" fetchpriority="high"><span>View larger ${svg("search")}</span></button><div class="gallery-thumbnails">${p.photoUrls.map((src, i) => `<button data-gallery="${esc(src)}" aria-label="View photo ${i + 1}" aria-pressed="${i === 0}"><img src="${esc(src)}" alt="${esc(p.model)} photo ${i + 1}" width="80" height="80" loading="lazy"></button>`).join("")}</div></div><div class="product-purchase"><p class="section-kicker">${esc(p.brand)} · ${esc(conditionName(p.condition))}</p><h1>${esc(p.model)}</h1><p class="product-subtitle">${esc(p.colour)}${p.grade ? " · " + esc(p.grade) + " cosmetic condition" : ""}</p><div class="detail-price-line"><strong id="detail-price">${money(v.price)}</strong><del id="detail-was" ${v.wasPrice > v.price ? "" : "hidden"}>${v.wasPrice > v.price ? money(v.wasPrice) : ""}</del></div><p id="detail-stock" class="availability ${v.inStock ? "" : "unavailable"}">${v.inStock > 0 ? v.inStock + " in stock" : "Out of stock"}</p><label class="field-label" for="variant-select">Choose storage / variant</label><select id="variant-select" class="variant-select">${p.variants.map((x) => option(x.id, x.storage + " — " + money(x.price) + (x.inStock ? "" : " · Out of stock"), v.id)).join("")}</select><div class="product-quantity"><label for="product-quantity">Quantity</label><input id="product-quantity" type="number" min="1" max="${Math.max(1, v.inStock)}" value="1" inputmode="numeric"></div><p class="inline-error" id="product-error" role="alert" hidden></p><div class="purchase-buttons"><button class="button button-primary" id="add-to-cart" ${v.inStock ? "" : "disabled"}>${svg("bag")} Add to bag</button><button class="button button-outline" id="buy-now" ${v.inStock ? "" : "disabled"}>Request this ${p.category === "phones" ? "phone" : "product"} ${svg("arrow")}</button></div><a class="whatsapp-enquiry" href="https://wa.me/${b.whatsapp}?text=${encodeURIComponent("Hi Cell Connecta, please tell me more about " + p.model + " " + p.colour + ".")}">${svg("whatsapp")} Ask about this phone</a><p class="checkout-note">No online payment collected. Your bag becomes an order request; we confirm availability and payment arrangements with you.</p><div class="purchase-promises"><a href="/policies/delivery">${svg("truck")} Free Cape Town delivery</a><a href="/policies/warranty">${svg("shield")} ${p.warrantyMonths == null ? "Ask about warranty" : p.warrantyMonths + "-month warranty"}</a><a href="/policies/returns">${svg("refresh")} 3-day returns policy</a></div><p class="sku">Product ID / SKU: ${esc(p.sku)}</p></div></div><div class="product-information"><section><h2>About this ${p.category === "phones" ? "phone" : "product"}</h2><p>${esc(p.description || "Contact Cell Connecta for more details about this listing.")}</p></section><section><h2>Product details</h2><dl>${[
-    ["Brand", p.brand],
+  const wa = b.whatsapp || "27685302223";
+  const phone = b.phone || "+27685302223";
+  const productUrl = "https://cell-connecta.pages.dev/phone/" + p.id;
+  const conditionLabel = conditionName(p.condition);
+  const conditionClass = p.condition;
+  const discount = v.wasPrice > v.price ? Math.round((1 - v.price / v.wasPrice) * 100) : 0;
+
+  const specRows = [
+    ["Make", p.brand],
     ["Model", p.model],
-    ["Condition", conditionName(p.condition)],
+    ["Condition", conditionLabel],
     ["Colour", p.colour],
-    ...(p.battery != null ? [["Battery health", p.battery + "%"]] : []),
-    [
-      "Warranty",
-      p.warrantyMonths == null
-        ? "Please enquire"
-        : p.warrantyMonths + " months",
-    ],
+    ...(p.grade ? [["Cosmetic Grade", p.grade]] : []),
+    ...(p.battery != null ? [["Battery Health", p.battery + "%"]] : []),
+    ["Warranty", p.warrantyMonths == null ? "Please enquire" : p.warrantyMonths + " months"],
+    ["Returns", "3-day returns policy"],
+    ["Delivery", "Free Cape Town delivery"],
     ...p.specifications.map((s) => [s.label, s.value]),
-  ]
-    .filter((x) => x[1])
-    .map(([k, val]) => `<div><dt>${esc(k)}</dt><dd>${esc(val)}</dd></div>`)
-    .join(
-      "",
-    )}</dl></section></div></section>${related.length ? `<section class="container home-section"><div class="section-heading"><h2>You may also like</h2><a class="text-link" href="/shop">View all phones →</a></div><div class="product-grid">${related.slice(0, 4).map(card).join("")}</div></section>` : ""}<dialog class="image-dialog" id="image-dialog"><button class="icon-button dialog-close" data-close-dialog aria-label="Close image">${svg("close")}</button><img id="zoomed-image" src="${esc(p.photoUrls[0] || "/favicon.png")}" alt="${esc(p.model)} enlarged"></dialog>`;
+  ].filter((x) => x[1]);
+
+  const waOrderText = encodeURIComponent(
+    "Hi Cell Connecta, I'd like to order the " + p.model + " " + (p.colour || "") + ". " +
+    "Please share available options, prices and delivery details."
+  );
+  const waTradeInText = encodeURIComponent(
+    "Hi Cell Connecta, I'd like to trade in my old phone for the " + p.model + ". " +
+    "Could you give me a trade-in quote?"
+  );
+
+  const content = `
+<section class="container product-section">
+  <p class="breadcrumbs"><a href="/">Home</a> / <a href="/shop">Shop</a> / ${esc(p.model)}</p>
+  <div class="product-layout">
+    <div class="gallery">
+      <div class="gallery-main-wrap">
+        <button class="gallery-nav gallery-prev" data-gallery-prev aria-label="Previous image">\u2039</button>
+        <button class="gallery-main" id="zoom-image" aria-label="Enlarge product image">
+          <img id="main-product-image" src="${esc(p.photoUrls[0] || "/favicon.png")}" alt="${esc(p.model + " " + p.colour)}" width="700" height="700" fetchpriority="high">
+          <span class="gallery-counter" id="gallery-counter">1/${p.photoUrls.length}</span>
+          <span class="gallery-zoom-hint">View larger ${svg("search")}</span>
+        </button>
+        <button class="gallery-nav gallery-next" data-gallery-next aria-label="Next image">\u203a</button>
+      </div>
+      <div class="gallery-thumbnails">
+        ${p.photoUrls.map((src, i) => `<button data-gallery="${esc(src)}" data-index="${i}" aria-label="View photo ${i + 1}" aria-pressed="${i === 0}"><img src="${esc(src)}" alt="${esc(p.model)} photo ${i + 1}" width="80" height="80" loading="lazy"></button>`).join("")}
+      </div>
+    </div>
+    <div class="product-purchase">
+      <div class="condition-badges">
+        <span class="condition-badge condition-${esc(conditionClass)}">${esc(conditionLabel)}</span>
+        ${p.grade ? `<span class="grade-badge">${esc(p.grade)}</span>` : ""}
+      </div>
+      <h1>${esc(p.model)}</h1>
+      <div class="product-variants-info">
+        <label class="field-label" for="variant-select">Choose storage / variant</label>
+        <select id="variant-select" class="variant-select">${p.variants.map((x) => option(x.id, x.storage + " \u2014 " + money(x.price) + (x.inStock ? "" : " \u00b7 Out of stock"), v.id)).join("")}</select>
+        <p class="product-subtitle">${esc(p.colour)}${p.grade ? " \u00b7 " + esc(p.grade) + " cosmetic condition" : ""}</p>
+      </div>
+      ${p.battery != null ? `<p class="battery-health">${svg("zap")} Battery health: <strong>${p.battery}%</strong></p>` : ""}
+      <div class="detail-price-line">
+        <strong id="detail-price">${money(v.price)}</strong>
+        <del id="detail-was" ${v.wasPrice > v.price ? "" : "hidden"}>${v.wasPrice > v.price ? money(v.wasPrice) : ""}</del>
+        <span id="detail-discount" class="discount-badge" ${discount > 0 ? "" : "hidden"}>${discount > 0 ? `Save ${discount}%` : ""}</span>
+      </div>
+      <p id="detail-stock" class="availability ${v.inStock ? "" : "unavailable"}">${v.inStock > 0 ? v.inStock + " in stock" : "Out of stock"}</p>
+      <div class="product-quantity">
+        <label for="product-quantity">Quantity</label>
+        <input id="product-quantity" type="number" min="1" max="${Math.max(1, v.inStock)}" value="1" inputmode="numeric">
+      </div>
+      <div class="action-buttons">
+        <a class="button button-primary action-whatsapp" href="https://wa.me/${wa}?text=${waOrderText}">${svg("whatsapp")} Order on WhatsApp</a>
+        <a class="button button-outline action-call" href="tel:${esc(phone)}">${svg("phone")} Call Now</a>
+        <a class="button button-outline action-tradein" href="https://wa.me/${wa}?text=${waTradeInText}">${svg("trade-in")} Trade In</a>
+      </div>
+      <p class="inline-error" id="product-error" role="alert" hidden></p>
+      <div class="purchase-buttons">
+        <button class="button button-primary" id="add-to-cart" ${v.inStock ? "" : "disabled"}>${svg("bag")} Add to bag</button>
+        <button class="button button-outline" id="buy-now" ${v.inStock ? "" : "disabled"}>Request this ${p.category === "phones" ? "phone" : "product"} ${svg("arrow")}</button>
+      </div>
+      <button class="share-product" id="share-product" data-url="${esc(productUrl)}">${svg("share")} Share this product</button>
+      <p class="checkout-note">No online payment collected. Your bag becomes an order request; we confirm availability and payment arrangements with you.</p>
+      <p class="sku">Product ID / SKU: ${esc(p.sku)}</p>
+    </div>
+  </div>
+  <section class="full-specs-panel">
+    <h2>FULL SPECIFICATION</h2>
+    <dl class="specs-grid">
+      ${specRows.map(([k, val]) => `<div><dt>${esc(k)}</dt><dd>${esc(val)}</dd></div>`).join("")}
+    </dl>
+  </section>
+  <section class="customer-benefits">
+    <div class="benefit-card">
+      <div class="benefit-icon">${svg("award")}</div>
+      <h3>No VAT</h3>
+      <p>Prices shown include VAT \u2014 no hidden extras.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon">${svg("truck")}</div>
+      <h3>Free Delivery</h3>
+      <p>Free delivery across Cape Town.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon">${svg("shield")}</div>
+      <h3>Warranty</h3>
+      <p>Warranty on eligible products.</p>
+    </div>
+    <div class="benefit-card">
+      <div class="benefit-icon">${svg("refresh")}</div>
+      <h3>3-Day Returns</h3>
+      <p>Hassle-free 3-day returns policy.</p>
+    </div>
+  </section>
+  <section class="about-product">
+    <h2>About this ${p.category === "phones" ? "phone" : "product"}</h2>
+    <p>${esc(p.description || "Contact Cell Connecta for more details about this listing.")}</p>
+  </section>
+</section>
+${related.length ? `<section class="container home-section"><div class="section-heading"><h2>You may also like</h2><a class="text-link" href="/shop">View all products \u2192</a></div><div class="product-grid">${related.slice(0, 4).map(card).join("")}</div></section>` : ""}
+<dialog class="image-dialog" id="image-dialog"><button class="icon-button dialog-close" data-close-dialog aria-label="Close image">${svg("close")}</button><img id="zoomed-image" src="${esc(p.photoUrls[0] || "/favicon.png")}" alt="${esc(p.model)} enlarged"></dialog>
+  `;
   return { content, schema };
 }
 export function cartPage(checkout = false) {
